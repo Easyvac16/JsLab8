@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 
 <body>
-    <form>
+    <form action="/submit-form" method="post">
         <label for="login">Your login:</label><br>
-        <input type="text" id="login">
+        <input type="submit" id="login" value="submit">
         <br>
 
         <label for="password">Your password:</label><br>
@@ -23,7 +23,6 @@
 
         <button class="button" onclick="SignIn(login)">Sign in</button>
     </form>
-
 </body>
 <a href="task2.html">Task 2</a>
 <a href="task3.html">Task 3</a>
